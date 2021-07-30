@@ -255,7 +255,10 @@ class _SecondPageState extends State<SecondPage> {
                                 ],
                               ),
                             ),
-                            Text(dateFormat.format(e.date!)),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(dateFormat.format(e.date!)),
+                            ),
                           ],
                         ),
                         Row(
