@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:project_assignment/pages/first_page.dart';
-import 'package:project_assignment/pages/second_page.dart';
+
+import 'pages/first_page.dart';
+import 'pages/second_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
